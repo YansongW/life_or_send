@@ -1,0 +1,52 @@
+site_name: Life or Send
+site_description: AI-powered customer service system with WeChat integration
+site_author: Yansong
+repo_url: https://github.com/yansongWang/life_or_send
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          rendering:
+            show_source: true
+            show_root_heading: true
+
+nav:
+  - 首页: index.md
+  - 安装指南: 
+    - 环境准备: installation/prerequisites.md
+    - 安装步骤: installation/setup.md
+    - 配置说明: installation/configuration.md
+  - API文档:
+    - 概述: api/overview.md
+    - 微信接口: api/wechat.md
+    - 会话管理: api/session.md
+    - 搜索功能: api/search.md
+    - 统计分析: api/analytics.md
+  - 开发指南:
+    - 项目结构: development/structure.md
+    - 代码规范: development/coding-standards.md
+    - 测试指南: development/testing.md
+    - 部署流程: development/deployment.md
+  - 常见问题: faq.md
+  - 更新日志: changelog.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - toc:
+      permalink: true 

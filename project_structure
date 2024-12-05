@@ -1,0 +1,20 @@
+chatbot/
+├── api/
+│   ├── __init__.py
+│   ├── wechat.py      # 微信接口处理
+│   └── chat.py        # 聊天相关接口
+├── models/
+│   ├── __init__.py
+│   ├── message.py     # 消息模型
+│   └── user.py        # 用户模型
+├── services/
+│   ├── __init__.py
+│   ├── chat_service.py    # 对话服务
+│   ├── ai_service.py      # AI服务
+│   └── vector_service.py  # 向量搜索服务
+├── database/
+│   ├── __init__.py
+│   └── db.py         # 数据库连接
+├── config/
+│   └── config.py     # 配置文件
+└── main.py           # 主程序入口 
