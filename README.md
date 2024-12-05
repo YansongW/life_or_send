@@ -1,5 +1,9 @@
 # Life or Send - AI Customer Service System
 
+[![CI](https://github.com/yansongWang/life_or_send/actions/workflows/ci.yml/badge.svg)](https://github.com/yansongWang/life_or_send/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
+
 [中文文档](README_ZH.md)
 
 ## Overview
@@ -60,4 +64,4 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.# life_or_send
